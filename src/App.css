@@ -1,0 +1,22 @@
+.row{
+    max-width: 114rem;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row:not(:last-child){
+    margin-bottom: 6rem;
+}
+
+.col-1-of-2{
+    background-color: aqua;
+    border: 2px solid transparent;
+    padding: 6rem;
+}
+
+.col-1-of-3{
+    background-color: greenyellow;
+    border: 2px solid transparent;
+    padding: 6rem;
+}
